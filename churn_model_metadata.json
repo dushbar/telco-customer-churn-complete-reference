@@ -1,0 +1,32 @@
+{
+  "model_version": "1.0.0",
+  "trained_at": "2026-09-12",
+  "training_rows": 5634,
+  "business_threshold": 0.2,
+  "test_set_metrics": {
+    "roc_auc": 0.8462,
+    "pr_auc": 0.6629,
+    "f1_at_0.5": 0.5875
+  },
+  "feature_columns_expected": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ]
+}
